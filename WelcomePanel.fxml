@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1280.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="dateStatus" boundsType="VISUAL" fill="RED" layoutX="392.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a date range to get started" textAlignment="CENTER" wrappingWidth="535.2548522949219">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#333333" layoutX="495.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the Covid-19 Statistics Viewer" textAlignment="CENTER" underline="true" wrappingWidth="338.265625">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#333333" layoutX="306.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This application allows you to explore various data and statistics related to the COVID-19  pandemic, collected in London. You can view data from 03/02/2020 up until 09/02/2023. Please note that complete data is only available between 09/03/2020 up until 15/10/2022. To select your desired date range, please use the provided date pickers in the top-right corner of this window. You can navigate between the various panels of this application by using the provided buttons below." textAlignment="JUSTIFY" wrappingWidth="703.427734375">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

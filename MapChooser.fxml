@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<VBox id="Background" alignment="TOP_RIGHT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1280.0" snapToPixel="false" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="Foreground" focusTraversable="true" nodeOrientation="RIGHT_TO_LEFT" prefHeight="600.0" prefWidth="1274.0">
+         <children>
+			<AnchorPane id="anchorPane" accessibleRole="NODE" layoutX="694.0" layoutY="126.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="411.0" scaleX="1.2" scaleY="1.2" style="-fx-border-color: BLACK; -fx-background-color: #2C3E50; -fx-border-width: 3;">                  <!-- First Polygon and Text -->
+                  <StackPane id="Enfield" layoutX="169.0" layoutY="18.0" onMouseClicked="#handleStackPaneClick">
+                     <Polygon id="polygonENFI" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                     <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENFI">
+                        <font>
+                           <Font name="Al Nile" size="11.0" />
+                        </font>
+                     </Text>
+                  </StackPane>
+
+                  <StackPane id="Barnet" layoutX="244.0" layoutY="61.0" onMouseClicked="#handleStackPaneClick">
+                     <Polygon id="polygonBARN" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                     <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BARN">
+                        <font>
+                           <Font name="Al Nile" size="11.0" />
+                        </font>
+                     </Text>
+                  </StackPane>
+
+                  <StackPane id="Haringey" layoutX="194.0" layoutY="61.0" onMouseClicked="#handleStackPaneClick">
+                     <Polygon id="polygonHRGY" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                     <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HRGY">
+                        <font>
+                           <Font name="Al Nile" size="11.0" />
+                        </font>
+                     </Text>
+                  </StackPane>
+                  <StackPane id="Camden" layoutX="219.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonCAMD" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAMD">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Islington" layoutX="169.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonISLI" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISLI">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Hackney" layoutX="119.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHACK" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HACK">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Redbridge" layoutX="69.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonREDB" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REDB">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Waltham+Forest" layoutX="144.0" layoutY="61.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonWALT" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WALT">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Harrow" layoutX="319.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHRRW" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0">
+                           <StackPane.margin>
+                              <Insets />
+                           </StackPane.margin>
+                     </Polygon>
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HRRW">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Brent" layoutX="269.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonBREN" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BREN">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Havering" layoutX="20.0" layoutY="104.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHAVE" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAVE">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Kensington+And+Chelsea" layoutX="244.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonKENS" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KENS">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Westminster" layoutX="194.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonWSTM" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WSTM">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Tower+Hamlets" layoutX="144.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonTOWH" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOWH">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Newham" layoutX="94.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonNEWH" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEWH">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Hillingdon" layoutX="344.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHILL" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HILL">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Ealing" layoutX="294.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonEALI" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EALI">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Barking+And+Dagenham" layoutX="44.0" layoutY="147.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonBARK" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BARK">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Wandsworth" layoutX="219.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonWAND" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WAND">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="City+Of+London" layoutX="169.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonCITY" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CITY">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Greenwich" layoutX="119.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonGWCH" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GWCH">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Bexley" layoutX="69.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonBEXL" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEXL">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Hounslow" layoutX="319.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHOUN" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOUN">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Hammersmith+And+Fulham" layoutX="269.0" layoutY="190.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonHAMM" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAMM">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Lambeth" layoutX="194.0" layoutY="233.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonLAMB" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAMB">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Southwark" layoutX="144.0" layoutY="233.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonSTHW" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STHW">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Lewisham" layoutX="94.0" layoutY="233.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonLEWS" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEWS">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Richmond+Upon+Thames" layoutX="294.0" layoutY="233.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonRICH" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RICH">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Merton" layoutX="244.0" layoutY="233.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonMERT" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MERT">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Sutton" layoutX="219.0" layoutY="276.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonSUTT" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUTT">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Croydon" layoutX="169.0" layoutY="276.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonCROY" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CROY">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Bromley" layoutX="119.0" layoutY="276.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonBROM" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BROM">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane id="Kingston+Upon+Thames" layoutX="269.0" layoutY="276.0" onMouseClicked="#handleStackPaneClick">
+                     <children>
+                        <Polygon id="polygonKING" accessibleRole="BUTTON" fill="WHITE" points="0.0, -25.0, 21.6, -12.5, 21.6, 12.5, 0.0, 25.0, -21.6, 12.5, -21.6, -12.5" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="2.0" />
+                        <Text layoutX="0.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KING">
+                           <font>
+                              <Font name="Al Nile" size="11.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+
+
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </AnchorPane>
+<Pane id="MapPane" layoutX="150.0" layoutY="171.0" prefHeight="270.0" prefWidth="280.0" style="-fx-border-color: BLACK; -fx-border-width: 0;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">                 <children>
+                     <WebView fx:id="mapWebView" layoutX="1.0" prefHeight="276.0" prefWidth="278.0" style="-fx-margin: 0; -fx-padding: 0;" VBox.vgrow="ALWAYS" />
+                  <Text id="TmpText" layoutX="57.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a Borough to See Map" wrappingWidth="173.38323974609375" />
+                 </children>
+             </Pane>
+
+
+         </children>
+      </Pane>
+   </children>
+</VBox>
